@@ -1,0 +1,56 @@
+<html>
+  <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"></meta>
+    <title>Browser</title>
+    <%=javascript_include_tag "http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"%>
+    <%= javascript_include_tag "jquery.simplemodal.js" %>
+    <%=javascript_include_tag "basic.js" %>
+    <%= javascript_include_tag "rails.js" %>
+    <%= csrf_meta_tag %>
+
+     </head>
+  <body>
+
+    <div id="page">
+
+      <%=debug params%>
+      <%@link_array.each_index do |linky|%>
+        <%=link_to @link_array[linky], :link=>linky, :dir=>@active_path%>
+        <%="/"%>
+      <%end%>
+      <div id="dir-overview">
+        <h1>Directory listing</h1>
+        <ul id="directories">
+          <% @dirs.each do |dir| %>
+            <li class="folder">
+              <%= link_to image_tag("/images/Folder.png", :border=>0),browser_path(:dir=>dir[:url])%>
+              <p id="labela"><%=dir[:name]%></p>
+            </li>
+          <%end%>
+
+        </ul>
+      </div>
+      <div style="clear:both"></div>
+      <div id="files-overview">
+        <h1>File listing</h1>
+        <ul id="files">
+          <% @files.each do |file| %>
+            <li class="file">
+
+              <%=link_to image_tag("/images/File.png",:border=>0), browser_path(:file=>file[:url]), :remote=>true%>
+
+              <p id="labela"><%=file[:name]%></p>
+
+            </li>
+          <%end%>
+
+        </ul>
+      </div>
+
+      <!-- modal content -->
+      <div id="file-info">
+    <%=debug params%>
+      </div>
+     
+    </div>
+  </body>
+</html>
