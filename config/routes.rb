@@ -1,11 +1,13 @@
 Browser::Application.routes.draw do
-  root :to=>"browser#index"
+
+  
   match 'browser' => 'browser#index'
   match 'browser/index' => 'browser#index'
   match 'browser/info' =>'browser#info'
   resources :browser 
-   
-
+  resources :files
+  
+  root :to => "browser#index"
   #root :to=>'browser#index'
   # The priority is based upon order of creation:
   # first created -> highest priority.

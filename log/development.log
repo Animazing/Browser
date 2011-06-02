@@ -41143,3 +41143,1539 @@ Started GET "/browser?dir=%2Fhome%2Fmax%2FVirtualBox+VMs%2Fxp" for 127.0.0.1 at 
   Parameters: {"dir"=>"/home/max/VirtualBox VMs/xp"}
 Rendered browser/index.html.erb within layouts/application (9.9ms)
 Completed 200 OK in 16ms (Views: 15.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-01 19:55:51 +0200
+
+RuntimeError (!!! Missing the mysql2 gem. Add it to your Gemfile: gem 'mysql2'):
+  
+
+Rendered /Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+Rendered /Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (7.0ms)
+Rendered /Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-01 19:56:33 +0200
+
+LoadError (no such file to load -- sqlite3):
+  
+
+Rendered /Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+Rendered /Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (6.7ms)
+Rendered /Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (13.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-01 19:56:35 +0200
+
+LoadError (no such file to load -- sqlite3):
+  
+
+Rendered /Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.5ms)
+Rendered /Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-01 19:56:45 +0200
+
+ActiveRecord::AdapterNotFound (database configuration specifies nonexistent sqlite adapter):
+  
+
+Rendered /Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
+Rendered /Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (6.5ms)
+Rendered /Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (13.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-01 19:58:23 +0200
+
+LoadError (no such file to load -- sqlite3):
+  
+
+Rendered /Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (6.5ms)
+Rendered /Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (13.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-01 19:58:44 +0200
+  Processing by BrowserController#index as HTML
+Completed   in 1ms
+
+ArgumentError (user max doesn't exist):
+  app/controllers/browser_controller.rb:11:in `home'
+  app/controllers/browser_controller.rb:11:in `index'
+
+Rendered /Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+Rendered /Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.9ms)
+Rendered /Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (48.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-01 19:59:00 +0200
+  Processing by BrowserController#index as HTML
+Rendered browser/index.html.erb within layouts/application (40.2ms)
+Completed 200 OK in 48ms (Views: 45.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-01 20:02:25 +0200
+  Processing by BrowserController#index as HTML
+Rendered browser/index.html.erb within layouts/application (45.7ms)
+Completed 200 OK in 54ms (Views: 52.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-01 20:02:36 +0200
+  Processing by BrowserController#index as HTML
+Rendered browser/index.html.erb within layouts/application (65.7ms)
+Completed 200 OK in 77ms (Views: 74.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-01 20:07:16 +0200
+  Processing by BrowserController#index as HTML
+Rendered browser/index.html.erb within layouts/application (45.6ms)
+Completed 200 OK in 198ms (Views: 50.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-01 20:07:27 +0200
+  Processing by BrowserController#index as HTML
+Rendered browser/index.html.erb within layouts/application (43.8ms)
+Completed 200 OK in 51ms (Views: 48.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-01 20:08:33 +0200
+  Processing by BrowserController#index as HTML
+Rendered browser/index.html.erb within layouts/application (87.3ms)
+Completed   in 96ms
+
+ActionView::Template::Error (No expansion found for :rails):
+    2: <html>
+    3: <head>
+    4:   <title>Browser</title>
+    5: 	<%= javascript_include_tag :rails %>
+    6:   <%= stylesheet_link_tag :all %>
+    7:   <%= javascript_include_tag :defaults %>
+    8:   <%= csrf_meta_tag %>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___1772739896677583087_2157621460__4232178231377617073'
+
+Rendered /Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.7ms)
+Rendered /Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (10.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-01 20:08:41 +0200
+  Processing by BrowserController#index as HTML
+Rendered browser/index.html.erb within layouts/application (118.7ms)
+Completed 200 OK in 127ms (Views: 125.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-01 20:08:52 +0200
+  Processing by BrowserController#index as HTML
+Rendered browser/index.html.erb within layouts/application (41.2ms)
+Completed 200 OK in 49ms (Views: 47.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-01 20:09:04 +0200
+  Processing by BrowserController#index as HTML
+Rendered browser/index.html.erb within layouts/application (46.3ms)
+Completed 200 OK in 115ms (Views: 112.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-01 20:13:39 +0200
+  Processing by BrowserController#index as HTML
+Rendered browser/index.html.erb within layouts/application (42.4ms)
+Completed 200 OK in 117ms (Views: 47.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/javascripts/prototype.js" for 127.0.0.1 at 2011-06-01 20:13:40 +0200
+
+ActionController::RoutingError (No route matches "/javascripts/prototype.js"):
+  
+
+Rendered /Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-01 20:13:59 +0200
+  Processing by BrowserController#index as HTML
+Rendered browser/index.html.erb within layouts/application (40.2ms)
+Completed 200 OK in 48ms (Views: 45.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/javascripts/prototype.js" for 127.0.0.1 at 2011-06-01 20:14:00 +0200
+
+ActionController::RoutingError (No route matches "/javascripts/prototype.js"):
+  
+
+Rendered /Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.4ms)
+
+
+Started GET "/javascripts/effects.js" for 127.0.0.1 at 2011-06-01 20:14:00 +0200
+
+ActionController::RoutingError (No route matches "/javascripts/effects.js"):
+  
+
+Rendered /Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.5ms)
+
+
+Started GET "/javascripts/dragdrop.js" for 127.0.0.1 at 2011-06-01 20:14:00 +0200
+
+ActionController::RoutingError (No route matches "/javascripts/dragdrop.js"):
+  
+
+Rendered /Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.6ms)
+
+
+Started GET "/javascripts/controls.js" for 127.0.0.1 at 2011-06-01 20:14:00 +0200
+
+ActionController::RoutingError (No route matches "/javascripts/controls.js"):
+  
+
+Rendered /Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/javascripts/effects.js" for 127.0.0.1 at 2011-06-01 20:14:01 +0200
+
+ActionController::RoutingError (No route matches "/javascripts/effects.js"):
+  
+
+Rendered /Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.3ms)
+
+
+Started GET "/javascripts/dragdrop.js" for 127.0.0.1 at 2011-06-01 20:14:01 +0200
+
+ActionController::RoutingError (No route matches "/javascripts/dragdrop.js"):
+  
+
+Rendered /Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/javascripts/controls.js" for 127.0.0.1 at 2011-06-01 20:14:01 +0200
+
+ActionController::RoutingError (No route matches "/javascripts/controls.js"):
+  
+
+Rendered /Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-02 11:21:52 +0200
+  Processing by BrowserController#index as HTML
+Rendered browser/index.html.erb within layouts/application (72.9ms)
+Completed 200 OK in 131ms (Views: 98.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/javascripts/prototype.js" for 127.0.0.1 at 2011-06-02 11:21:52 +0200
+
+ActionController::RoutingError (No route matches "/javascripts/prototype.js"):
+  
+
+Rendered /Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/javascripts/effects.js" for 127.0.0.1 at 2011-06-02 11:21:52 +0200
+
+ActionController::RoutingError (No route matches "/javascripts/effects.js"):
+  
+
+Rendered /Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.3ms)
+
+
+Started GET "/javascripts/dragdrop.js" for 127.0.0.1 at 2011-06-02 11:21:52 +0200
+
+ActionController::RoutingError (No route matches "/javascripts/dragdrop.js"):
+  
+
+Rendered /Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.8ms)
+
+
+Started GET "/javascripts/controls.js" for 127.0.0.1 at 2011-06-02 11:21:52 +0200
+
+ActionController::RoutingError (No route matches "/javascripts/controls.js"):
+  
+
+Rendered /Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-02 17:50:39 +0200
+  Processing by BrowserController#index as HTML
+Rendered browser/index.html.erb within layouts/application (41.1ms)
+Completed 200 OK in 81ms (Views: 78.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/javascripts/prototype.js" for 127.0.0.1 at 2011-06-02 17:50:40 +0200
+
+ActionController::RoutingError (No route matches "/javascripts/prototype.js"):
+  
+
+Rendered /Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/javascripts/dragdrop.js" for 127.0.0.1 at 2011-06-02 17:50:40 +0200
+
+ActionController::RoutingError (No route matches "/javascripts/dragdrop.js"):
+  
+
+Rendered /Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/javascripts/effects.js" for 127.0.0.1 at 2011-06-02 17:50:40 +0200
+
+ActionController::RoutingError (No route matches "/javascripts/effects.js"):
+  
+
+Rendered /Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/javascripts/controls.js" for 127.0.0.1 at 2011-06-02 17:50:40 +0200
+
+ActionController::RoutingError (No route matches "/javascripts/controls.js"):
+  
+
+Rendered /Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.4ms)
+
+
+Started GET "/javascripts/effects.js" for 127.0.0.1 at 2011-06-02 17:50:40 +0200
+
+ActionController::RoutingError (No route matches "/javascripts/effects.js"):
+  
+
+Rendered /Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/javascripts/dragdrop.js" for 127.0.0.1 at 2011-06-02 17:50:40 +0200
+
+ActionController::RoutingError (No route matches "/javascripts/dragdrop.js"):
+  
+
+Rendered /Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.6ms)
+
+
+Started GET "/javascripts/controls.js" for 127.0.0.1 at 2011-06-02 17:50:40 +0200
+
+ActionController::RoutingError (No route matches "/javascripts/controls.js"):
+  
+
+Rendered /Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-02 17:51:08 +0200
+  Processing by BrowserController#index as HTML
+Rendered browser/index.html.erb within layouts/application (41.4ms)
+Completed 200 OK in 48ms (Views: 46.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-02 17:51:18 +0200
+  Processing by BrowserController#index as HTML
+Rendered browser/index.html.erb within layouts/application (85.9ms)
+Completed 200 OK in 94ms (Views: 91.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-02 17:51:41 +0200
+  Processing by BrowserController#index as HTML
+Rendered browser/index.html.erb within layouts/application (45.5ms)
+Completed 200 OK in 54ms (Views: 51.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-02 17:52:16 +0200
+  Processing by BrowserController#index as HTML
+Rendered browser/index.html.erb within layouts/application (106.1ms)
+Completed 200 OK in 115ms (Views: 112.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-02 17:52:30 +0200
+  Processing by BrowserController#index as HTML
+Rendered browser/index.html.erb within layouts/application (47.2ms)
+Completed 200 OK in 55ms (Views: 53.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/browser?file=%2FUsers%2Fmaran%2Ftest.png" for 127.0.0.1 at 2011-06-02 17:52:31 +0200
+  Processing by BrowserController#index as JS
+  Parameters: {"file"=>"/Users/maran/test.png"}
+Completed   in 22ms
+
+ActionView::MissingTemplate (Missing template browser/index with {:handlers=>[:erb, :rjs, :builder, :rhtml, :rxml], :formats=>[:js, "*/*"], :locale=>[:en, :en]} in view paths "/Users/maran/Projects/misc/Browser/app/views"):
+  
+
+Rendered /Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (1.0ms)
+
+
+Started GET "/browser?file=%2FUsers%2Fmaran%2Ftest.png" for 127.0.0.1 at 2011-06-02 17:52:31 +0200
+  Processing by BrowserController#index as JS
+  Parameters: {"file"=>"/Users/maran/test.png"}
+Completed   in 8ms
+
+ActionView::MissingTemplate (Missing template browser/index with {:handlers=>[:erb, :rjs, :builder, :rhtml, :rxml], :formats=>[:js, "*/*"], :locale=>[:en, :en]} in view paths "/Users/maran/Projects/misc/Browser/app/views"):
+  
+
+Rendered /Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-02 17:54:11 +0200
+  Processing by BrowserController#index as HTML
+Rendered browser/index.html.erb within layouts/application (32.6ms)
+Completed   in 42ms
+
+ActionView::Template::Error (undefined method `file_path' for #<#<Class:0x00000102cfcd78>:0x00000102cf9df8>):
+    36:           <% @files.each do |file| %>
+    37:             <li class="file">
+    38: 
+    39:               <%= link_to image_tag("/images/File.png",:border=>0), file_path(file[:url]), :remote=>true%>
+    40: 
+    41:               <p id="labela"><%=file[:name]%></p>
+    42: 
+  app/views/browser/index.html.erb:39:in `block in _app_views_browser_index_html_erb__2508673540285359187_2171060420_3767497235302693569'
+  app/views/browser/index.html.erb:36:in `each'
+  app/views/browser/index.html.erb:36:in `_app_views_browser_index_html_erb__2508673540285359187_2171060420_3767497235302693569'
+
+Rendered /Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.9ms)
+Rendered /Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.7ms)
+Rendered /Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (24.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-02 17:54:25 +0200
+  Processing by BrowserController#index as HTML
+Rendered browser/index.html.erb within layouts/application (68.0ms)
+Completed   in 76ms
+
+ActionView::Template::Error (No route matches {:action=>"show", :controller=>"files", :id=>"/Users/maran/00000001.png"}):
+    36:           <% @files.each do |file| %>
+    37:             <li class="file">
+    38: 
+    39:               <%= link_to image_tag("/images/File.png",:border=>0), file_path(file[:url]), :remote=>true%>
+    40: 
+    41:               <p id="labela"><%=file[:name]%></p>
+    42: 
+  app/views/browser/index.html.erb:39:in `block in _app_views_browser_index_html_erb__2508673540285359187_2161549460_3767497235302693569'
+  app/views/browser/index.html.erb:36:in `each'
+  app/views/browser/index.html.erb:36:in `_app_views_browser_index_html_erb__2508673540285359187_2161549460_3767497235302693569'
+
+Rendered /Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+Rendered /Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.5ms)
+Rendered /Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (10.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-02 17:54:26 +0200
+  Processing by BrowserController#index as HTML
+Rendered browser/index.html.erb within layouts/application (15.5ms)
+Completed   in 23ms
+
+ActionView::Template::Error (No route matches {:action=>"show", :controller=>"files", :id=>"/Users/maran/00000001.png"}):
+    36:           <% @files.each do |file| %>
+    37:             <li class="file">
+    38: 
+    39:               <%= link_to image_tag("/images/File.png",:border=>0), file_path(file[:url]), :remote=>true%>
+    40: 
+    41:               <p id="labela"><%=file[:name]%></p>
+    42: 
+  app/views/browser/index.html.erb:39:in `block in _app_views_browser_index_html_erb__2508673540285359187_2170910220_3767497235302693569'
+  app/views/browser/index.html.erb:36:in `each'
+  app/views/browser/index.html.erb:36:in `_app_views_browser_index_html_erb__2508673540285359187_2170910220_3767497235302693569'
+
+Rendered /Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+Rendered /Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.1ms)
+Rendered /Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (11.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-02 17:54:46 +0200
+  Processing by BrowserController#index as HTML
+Rendered browser/index.html.erb within layouts/application (17.0ms)
+Completed   in 24ms
+
+ActionView::Template::Error (No route matches {:action=>"show", :controller=>"files", :id=>"/Users/maran/00000001.png"}):
+    36:           <% @files.each do |file| %>
+    37:             <li class="file">
+    38: 
+    39:               <%= link_to image_tag("/images/File.png",:border=>0), file_path(file[:url]), :remote=>true%>
+    40: 
+    41:               <p id="labela"><%=file[:name]%></p>
+    42: 
+  app/views/browser/index.html.erb:39:in `block in _app_views_browser_index_html_erb__2508673540285359187_2162051720_3767497235302693569'
+  app/views/browser/index.html.erb:36:in `each'
+  app/views/browser/index.html.erb:36:in `_app_views_browser_index_html_erb__2508673540285359187_2162051720_3767497235302693569'
+
+Rendered /Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
+Rendered /Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.8ms)
+Rendered /Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (59.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-02 17:55:40 +0200
+  Processing by BrowserController#index as HTML
+Rendered browser/index.html.erb within layouts/application (16.4ms)
+Completed   in 24ms
+
+ActionView::Template::Error (No route matches {:action=>"show", :controller=>"files", :id=>"/Users/maran/00000001.png"}):
+    36:           <% @files.each do |file| %>
+    37:             <li class="file">
+    38: 
+    39:               <%= link_to image_tag("/images/File.png",:border=>0), file_path(file[:url]), :remote=>true%>
+    40: 
+    41:               <p id="labela"><%=file[:name]%></p>
+    42: 
+  app/views/browser/index.html.erb:39:in `block in _app_views_browser_index_html_erb__2508673540285359187_2170823760_3767497235302693569'
+  app/views/browser/index.html.erb:36:in `each'
+  app/views/browser/index.html.erb:36:in `_app_views_browser_index_html_erb__2508673540285359187_2170823760_3767497235302693569'
+
+Rendered /Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.8ms)
+Rendered /Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.1ms)
+Rendered /Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (12.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-02 17:55:41 +0200
+  Processing by BrowserController#index as HTML
+Rendered browser/index.html.erb within layouts/application (15.6ms)
+Completed   in 22ms
+
+ActionView::Template::Error (No route matches {:action=>"show", :controller=>"files", :id=>"/Users/maran/00000001.png"}):
+    36:           <% @files.each do |file| %>
+    37:             <li class="file">
+    38: 
+    39:               <%= link_to image_tag("/images/File.png",:border=>0), file_path(file[:url]), :remote=>true%>
+    40: 
+    41:               <p id="labela"><%=file[:name]%></p>
+    42: 
+  app/views/browser/index.html.erb:39:in `block in _app_views_browser_index_html_erb__2508673540285359187_2162879560_3767497235302693569'
+  app/views/browser/index.html.erb:36:in `each'
+  app/views/browser/index.html.erb:36:in `_app_views_browser_index_html_erb__2508673540285359187_2162879560_3767497235302693569'
+
+Rendered /Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+Rendered /Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.5ms)
+Rendered /Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (11.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-02 17:55:51 +0200
+  Processing by BrowserController#index as HTML
+Rendered browser/index.html.erb within layouts/application (30.6ms)
+Completed   in 38ms
+
+ActionView::Template::Error (No route matches {:action=>"show", :controller=>"files", :id=>"/Users/maran/00000001.png"}):
+    36:           <% @files.each do |file| %>
+    37:             <li class="file">
+    38: 
+    39:               <%= link_to image_tag("/images/File.png",:border=>0), file_path(file[:url]), :remote=>true%>
+    40: 
+    41:               <p id="labela"><%=file[:name]%></p>
+    42: 
+  app/views/browser/index.html.erb:39:in `block in _app_views_browser_index_html_erb__2548649507367460241_2168669020_2425725211210789058'
+  app/views/browser/index.html.erb:36:in `each'
+  app/views/browser/index.html.erb:36:in `_app_views_browser_index_html_erb__2548649507367460241_2168669020_2425725211210789058'
+
+Rendered /Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+Rendered /Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.0ms)
+Rendered /Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (11.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-02 17:55:53 +0200
+  Processing by BrowserController#index as HTML
+Rendered browser/index.html.erb within layouts/application (15.8ms)
+Completed   in 22ms
+
+ActionView::Template::Error (No route matches {:action=>"show", :controller=>"files", :id=>"/Users/maran/00000001.png"}):
+    36:           <% @files.each do |file| %>
+    37:             <li class="file">
+    38: 
+    39:               <%= link_to image_tag("/images/File.png",:border=>0), file_path(file[:url]), :remote=>true%>
+    40: 
+    41:               <p id="labela"><%=file[:name]%></p>
+    42: 
+  app/views/browser/index.html.erb:39:in `block in _app_views_browser_index_html_erb__2548649507367460241_2153460280_2425725211210789058'
+  app/views/browser/index.html.erb:36:in `each'
+  app/views/browser/index.html.erb:36:in `_app_views_browser_index_html_erb__2548649507367460241_2153460280_2425725211210789058'
+
+Rendered /Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+Rendered /Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.3ms)
+Rendered /Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (13.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-02 17:56:33 +0200
+  Processing by BrowserController#index as HTML
+Rendered browser/index.html.erb within layouts/application (17.1ms)
+Completed   in 24ms
+
+ActionView::Template::Error (No route matches {:action=>"show", :controller=>"files", :id=>"/Users/maran/00000001.png"}):
+    36:           <% @files.each do |file| %>
+    37:             <li class="file">
+    38: 
+    39:               <%= link_to image_tag("/images/File.png",:border=>0), file_path(file[:url]), :remote=>true%>
+    40: 
+    41:               <p id="labela"><%=file[:name]%></p>
+    42: 
+  app/views/browser/index.html.erb:39:in `block in _app_views_browser_index_html_erb__2548649507367460241_2170735480_2425725211210789058'
+  app/views/browser/index.html.erb:36:in `each'
+  app/views/browser/index.html.erb:36:in `_app_views_browser_index_html_erb__2548649507367460241_2170735480_2425725211210789058'
+
+Rendered /Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.8ms)
+Rendered /Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.6ms)
+Rendered /Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (16.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-02 17:57:45 +0200
+  Processing by BrowserController#index as HTML
+Rendered browser/index.html.erb within layouts/application (38.4ms)
+Completed 200 OK in 47ms (Views: 44.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/files/1" for 127.0.0.1 at 2011-06-02 17:57:47 +0200
+  Processing by FilesController#show as JS
+  Parameters: {"id"=>"1"}
+Rendered files/show.js.erb (0.6ms)
+Completed 200 OK in 27ms (Views: 26.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/files/1" for 127.0.0.1 at 2011-06-02 17:57:48 +0200
+  Processing by FilesController#show as JS
+  Parameters: {"id"=>"1"}
+Rendered files/show.js.erb (0.5ms)
+Completed 200 OK in 9ms (Views: 8.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-02 17:58:09 +0200
+  Processing by BrowserController#index as HTML
+Rendered browser/index.html.erb within layouts/application (85.1ms)
+Completed 200 OK in 92ms (Views: 89.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/files/1?file=%2FUsers%2Fmaran%2Fsomething" for 127.0.0.1 at 2011-06-02 17:58:10 +0200
+  Processing by FilesController#show as JS
+  Parameters: {"file"=>"/Users/maran/something", "id"=>"1"}
+Rendered files/show.js.erb (0.4ms)
+Completed 200 OK in 9ms (Views: 8.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/files/1?file=%2FUsers%2Fmaran%2Fsomething" for 127.0.0.1 at 2011-06-02 17:58:10 +0200
+  Processing by FilesController#show as JS
+  Parameters: {"file"=>"/Users/maran/something", "id"=>"1"}
+Rendered files/show.js.erb (0.4ms)
+Completed 200 OK in 12ms (Views: 11.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-02 17:58:26 +0200
+  Processing by BrowserController#index as HTML
+Rendered browser/index.html.erb within layouts/application (40.7ms)
+Completed 200 OK in 48ms (Views: 46.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/files/1?file=%2FUsers%2Fmaran%2Frubygems-1.3.7.tgz" for 127.0.0.1 at 2011-06-02 17:58:27 +0200
+  Processing by FilesController#show as JS
+  Parameters: {"file"=>"/Users/maran/rubygems-1.3.7.tgz", "id"=>"1"}
+Rendered files/show.js.erb (0.6ms)
+Completed 200 OK in 9ms (Views: 8.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/files/1?file=%2FUsers%2Fmaran%2Frubygems-1.3.7.tgz" for 127.0.0.1 at 2011-06-02 17:58:27 +0200
+  Processing by FilesController#show as JS
+  Parameters: {"file"=>"/Users/maran/rubygems-1.3.7.tgz", "id"=>"1"}
+Rendered files/show.js.erb (0.7ms)
+Completed 200 OK in 12ms (Views: 11.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-02 17:58:49 +0200
+  Processing by BrowserController#index as HTML
+Rendered browser/index.html.erb within layouts/application (40.1ms)
+Completed 200 OK in 46ms (Views: 44.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/files/1?file=%2FUsers%2Fmaran%2Frtorrent" for 127.0.0.1 at 2011-06-02 17:58:51 +0200
+  Processing by FilesController#show as JS
+  Parameters: {"file"=>"/Users/maran/rtorrent", "id"=>"1"}
+Rendered files/show.js.erb (0.6ms)
+Completed 200 OK in 9ms (Views: 8.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/files/1?file=%2FUsers%2Fmaran%2Frtorrent" for 127.0.0.1 at 2011-06-02 17:58:51 +0200
+  Processing by FilesController#show as JS
+  Parameters: {"file"=>"/Users/maran/rtorrent", "id"=>"1"}
+Rendered files/show.js.erb (0.6ms)
+Completed 200 OK in 10ms (Views: 9.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-02 17:59:01 +0200
+  Processing by BrowserController#index as HTML
+Rendered browser/index.html.erb within layouts/application (38.4ms)
+Completed 200 OK in 45ms (Views: 43.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/files/1?file=%2FUsers%2Fmaran%2Fstats" for 127.0.0.1 at 2011-06-02 17:59:02 +0200
+  Processing by FilesController#show as JS
+  Parameters: {"file"=>"/Users/maran/stats", "id"=>"1"}
+Rendered files/show.js.erb (0.7ms)
+Completed 200 OK in 16ms (Views: 15.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/files/1?file=%2FUsers%2Fmaran%2Fstats" for 127.0.0.1 at 2011-06-02 17:59:02 +0200
+  Processing by FilesController#show as JS
+  Parameters: {"file"=>"/Users/maran/stats", "id"=>"1"}
+Rendered files/show.js.erb (0.6ms)
+Completed 200 OK in 9ms (Views: 8.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-02 18:01:16 +0200
+  Processing by BrowserController#index as HTML
+Rendered browser/index.html.erb within layouts/application (83.5ms)
+Completed 200 OK in 91ms (Views: 89.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/files/1?file=%2FUsers%2Fmaran%2Frubygems-1.3.7.tgz" for 127.0.0.1 at 2011-06-02 18:01:17 +0200
+  Processing by FilesController#show as JS
+  Parameters: {"file"=>"/Users/maran/rubygems-1.3.7.tgz", "id"=>"1"}
+Rendered files/show.js.erb (0.4ms)
+Completed 200 OK in 9ms (Views: 8.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/files/1?file=%2FUsers%2Fmaran%2Frubygems-1.3.7.tgz" for 127.0.0.1 at 2011-06-02 18:01:17 +0200
+  Processing by FilesController#show as JS
+  Parameters: {"file"=>"/Users/maran/rubygems-1.3.7.tgz", "id"=>"1"}
+Rendered files/show.js.erb (1.8ms)
+Completed 200 OK in 12ms (Views: 11.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-02 18:01:19 +0200
+  Processing by BrowserController#index as HTML
+Rendered browser/index.html.erb within layouts/application (41.4ms)
+Completed 200 OK in 55ms (Views: 52.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/files/1?file=%2FUsers%2Fmaran%2F00000001.png" for 127.0.0.1 at 2011-06-02 18:01:23 +0200
+  Processing by FilesController#show as JS
+  Parameters: {"file"=>"/Users/maran/00000001.png", "id"=>"1"}
+Rendered files/show.js.erb (0.4ms)
+Completed 200 OK in 9ms (Views: 8.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/files/1?file=%2FUsers%2Fmaran%2F00000001.png" for 127.0.0.1 at 2011-06-02 18:01:23 +0200
+  Processing by FilesController#show as JS
+  Parameters: {"file"=>"/Users/maran/00000001.png", "id"=>"1"}
+Rendered files/show.js.erb (0.5ms)
+Completed 200 OK in 11ms (Views: 10.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/files/1?file=%2FUsers%2Fmaran%2Fautodl-setup" for 127.0.0.1 at 2011-06-02 18:03:23 +0200
+  Processing by FilesController#show as JS
+  Parameters: {"file"=>"/Users/maran/autodl-setup", "id"=>"1"}
+Rendered files/show.js.erb (0.4ms)
+Completed 200 OK in 9ms (Views: 8.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/files/1?file=%2FUsers%2Fmaran%2Fautodl-setup" for 127.0.0.1 at 2011-06-02 18:03:23 +0200
+  Processing by FilesController#show as JS
+  Parameters: {"file"=>"/Users/maran/autodl-setup", "id"=>"1"}
+Rendered files/show.js.erb (0.6ms)
+Completed 200 OK in 13ms (Views: 12.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-02 18:03:47 +0200
+  Processing by BrowserController#index as HTML
+Rendered browser/index.html.erb within layouts/application (91.8ms)
+Completed 200 OK in 100ms (Views: 97.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-02 18:06:59 +0200
+  Processing by BrowserController#index as HTML
+Rendered browser/index.html.erb within layouts/application (43.6ms)
+Completed 200 OK in 54ms (Views: 51.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-02 18:09:14 +0200
+  Processing by BrowserController#index as HTML
+Rendered browser/index.html.erb within layouts/application (44.2ms)
+Completed 200 OK in 51ms (Views: 49.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-02 18:10:45 +0200
+  Processing by BrowserController#index as HTML
+Rendered browser/index.html.erb within layouts/application (87.6ms)
+Completed 200 OK in 101ms (Views: 98.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/javascripts/basic.js" for 127.0.0.1 at 2011-06-02 18:10:45 +0200
+
+ActionController::RoutingError (No route matches "/javascripts/basic.js"):
+  
+
+Rendered /Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.6ms)
+
+
+Started GET "/javascripts/jquery.simplemodal.js" for 127.0.0.1 at 2011-06-02 18:10:45 +0200
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.simplemodal.js"):
+  
+
+Rendered /Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.3ms)
+
+
+Started GET "/javascripts/jquery.simplemodal.js" for 127.0.0.1 at 2011-06-02 18:10:46 +0200
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.simplemodal.js"):
+  
+
+Rendered /Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.3ms)
+
+
+Started GET "/javascripts/basic.js" for 127.0.0.1 at 2011-06-02 18:10:46 +0200
+
+ActionController::RoutingError (No route matches "/javascripts/basic.js"):
+  
+
+Rendered /Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.5ms)
+
+
+Started GET "/browser?dir=%2FUsers%2Fmaran%2FApplications" for 127.0.0.1 at 2011-06-02 18:10:51 +0200
+  Processing by BrowserController#index as HTML
+  Parameters: {"dir"=>"/Users/maran/Applications"}
+Rendered browser/index.html.erb within layouts/application (7.9ms)
+Completed 200 OK in 49ms (Views: 12.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/javascripts/jquery.simplemodal.js" for 127.0.0.1 at 2011-06-02 18:10:51 +0200
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.simplemodal.js"):
+  
+
+Rendered /Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.4ms)
+
+
+Started GET "/javascripts/basic.js" for 127.0.0.1 at 2011-06-02 18:10:51 +0200
+
+ActionController::RoutingError (No route matches "/javascripts/basic.js"):
+  
+
+Rendered /Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.7ms)
+
+
+Started GET "/javascripts/basic.js" for 127.0.0.1 at 2011-06-02 18:10:51 +0200
+
+ActionController::RoutingError (No route matches "/javascripts/basic.js"):
+  
+
+Rendered /Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-02 18:13:43 +0200
+  Processing by BrowserController#index as HTML
+Rendered browser/index.html.erb within layouts/application (44.3ms)
+Completed 200 OK in 52ms (Views: 49.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/javascripts/jquery.simplemodal.js" for 127.0.0.1 at 2011-06-02 18:13:43 +0200
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.simplemodal.js"):
+  
+
+Rendered /Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.8ms)
+
+
+Started GET "/javascripts/basic.js" for 127.0.0.1 at 2011-06-02 18:13:43 +0200
+
+ActionController::RoutingError (No route matches "/javascripts/basic.js"):
+  
+
+Rendered /Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.3ms)
+
+
+Started GET "/javascripts/jquery.simplemodal.js" for 127.0.0.1 at 2011-06-02 18:13:44 +0200
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.simplemodal.js"):
+  
+
+Rendered /Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.4ms)
+
+
+Started GET "/javascripts/basic.js" for 127.0.0.1 at 2011-06-02 18:13:44 +0200
+
+ActionController::RoutingError (No route matches "/javascripts/basic.js"):
+  
+
+Rendered /Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/files/1?file=%2FUsers%2Fmaran%2Ftest2.png" for 127.0.0.1 at 2011-06-02 18:13:46 +0200
+  Processing by FilesController#show as JS
+  Parameters: {"file"=>"/Users/maran/test2.png", "id"=>"1"}
+Rendered files/show.js.erb (0.6ms)
+Completed 200 OK in 10ms (Views: 9.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/files/1?file=%2FUsers%2Fmaran%2Ftest2.png" for 127.0.0.1 at 2011-06-02 18:13:46 +0200
+  Processing by FilesController#show as JS
+  Parameters: {"file"=>"/Users/maran/test2.png", "id"=>"1"}
+Rendered files/show.js.erb (0.5ms)
+Completed 200 OK in 12ms (Views: 11.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-02 18:16:13 +0200
+  Processing by BrowserController#index as HTML
+Rendered browser/index.html.erb within layouts/application (48.8ms)
+Completed 200 OK in 56ms (Views: 54.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/javascripts/jquery.simplemodal.js" for 127.0.0.1 at 2011-06-02 18:16:14 +0200
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.simplemodal.js"):
+  
+
+Rendered /Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.4ms)
+
+
+Started GET "/javascripts/basic.js" for 127.0.0.1 at 2011-06-02 18:16:14 +0200
+
+ActionController::RoutingError (No route matches "/javascripts/basic.js"):
+  
+
+Rendered /Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.3ms)
+
+
+Started GET "/javascripts/jquery.simplemodal.js" for 127.0.0.1 at 2011-06-02 18:16:14 +0200
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.simplemodal.js"):
+  
+
+Rendered /Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.8ms)
+
+
+Started GET "/javascripts/basic.js" for 127.0.0.1 at 2011-06-02 18:16:14 +0200
+
+ActionController::RoutingError (No route matches "/javascripts/basic.js"):
+  
+
+Rendered /Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-02 18:17:05 +0200
+  Processing by BrowserController#index as HTML
+Rendered browser/index.html.erb within layouts/application (43.5ms)
+Completed 200 OK in 51ms (Views: 49.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/javascripts/jquery.simplemodal.js" for 127.0.0.1 at 2011-06-02 18:17:05 +0200
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.simplemodal.js"):
+  
+
+Rendered /Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.6ms)
+
+
+Started GET "/javascripts/basic.js" for 127.0.0.1 at 2011-06-02 18:17:06 +0200
+
+ActionController::RoutingError (No route matches "/javascripts/basic.js"):
+  
+
+Rendered /Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.3ms)
+
+
+Started GET "/javascripts/jquery.simplemodal.js" for 127.0.0.1 at 2011-06-02 18:17:06 +0200
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.simplemodal.js"):
+  
+
+Rendered /Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.0ms)
+
+
+Started GET "/javascripts/basic.js" for 127.0.0.1 at 2011-06-02 18:17:06 +0200
+
+ActionController::RoutingError (No route matches "/javascripts/basic.js"):
+  
+
+Rendered /Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-02 18:17:27 +0200
+  Processing by BrowserController#index as HTML
+Rendered browser/index.html.erb within layouts/application (46.3ms)
+Completed 200 OK in 56ms (Views: 52.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/javascripts/jquery.simplemodal.js" for 127.0.0.1 at 2011-06-02 18:17:28 +0200
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.simplemodal.js"):
+  
+
+Rendered /Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.5ms)
+
+
+Started GET "/javascripts/basic.js" for 127.0.0.1 at 2011-06-02 18:17:28 +0200
+
+ActionController::RoutingError (No route matches "/javascripts/basic.js"):
+  
+
+Rendered /Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.3ms)
+
+
+Started GET "/javascripts/jquery.simplemodal.js" for 127.0.0.1 at 2011-06-02 18:17:28 +0200
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.simplemodal.js"):
+  
+
+Rendered /Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.4ms)
+
+
+Started GET "/javascripts/basic.js" for 127.0.0.1 at 2011-06-02 18:17:28 +0200
+
+ActionController::RoutingError (No route matches "/javascripts/basic.js"):
+  
+
+Rendered /Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-02 18:18:36 +0200
+  Processing by BrowserController#index as HTML
+Rendered browser/index.html.erb within layouts/application (49.3ms)
+Completed 200 OK in 57ms (Views: 54.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/files/1?file=%2FUsers%2Fmaran%2Ftest2.png" for 127.0.0.1 at 2011-06-02 18:18:41 +0200
+  Processing by FilesController#show as JS
+  Parameters: {"file"=>"/Users/maran/test2.png", "id"=>"1"}
+Rendered files/show.js.erb (0.4ms)
+Completed 200 OK in 9ms (Views: 8.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-02 18:20:38 +0200
+  Processing by BrowserController#index as HTML
+Rendered browser/index.html.erb within layouts/application (43.1ms)
+Completed 200 OK in 102ms (Views: 48.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/files/1?file=%2FUsers%2Fmaran%2FShark+Boy.avi.torrent" for 127.0.0.1 at 2011-06-02 18:20:40 +0200
+  Processing by FilesController#show as JS
+  Parameters: {"file"=>"/Users/maran/Shark Boy.avi.torrent", "id"=>"1"}
+Rendered files/show.js.erb (0.9ms)
+Completed 200 OK in 10ms (Views: 9.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-02 18:21:58 +0200
+  Processing by BrowserController#index as HTML
+Rendered browser/index.html.erb within layouts/application (39.4ms)
+Completed 200 OK in 47ms (Views: 45.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/files/1?file=%2FUsers%2Fmaran%2Frubygems-1.3.7.tgz" for 127.0.0.1 at 2011-06-02 18:22:00 +0200
+  Processing by FilesController#show as JS
+  Parameters: {"file"=>"/Users/maran/rubygems-1.3.7.tgz", "id"=>"1"}
+Rendered files/show.js.erb (0.6ms)
+Completed 200 OK in 9ms (Views: 8.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/files/1?file=%2FUsers%2Fmaran%2Fm28sx.html" for 127.0.0.1 at 2011-06-02 18:22:01 +0200
+  Processing by FilesController#show as JS
+  Parameters: {"file"=>"/Users/maran/m28sx.html", "id"=>"1"}
+Rendered files/show.js.erb (0.5ms)
+Completed 200 OK in 9ms (Views: 8.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-02 18:22:19 +0200
+  Processing by BrowserController#index as HTML
+Rendered browser/index.html.erb within layouts/application (42.2ms)
+Completed 200 OK in 49ms (Views: 47.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/files/1?file=%2FUsers%2Fmaran%2Flogo2.png" for 127.0.0.1 at 2011-06-02 18:22:20 +0200
+  Processing by FilesController#show as JS
+  Parameters: {"file"=>"/Users/maran/logo2.png", "id"=>"1"}
+Rendered files/show.js.erb (0.6ms)
+Completed 200 OK in 9ms (Views: 8.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-02 18:22:27 +0200
+  Processing by BrowserController#index as HTML
+Rendered browser/index.html.erb within layouts/application (49.8ms)
+Completed 200 OK in 58ms (Views: 56.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/files/1?file=%2FUsers%2Fmaran%2Flogo2.png" for 127.0.0.1 at 2011-06-02 18:22:28 +0200
+  Processing by FilesController#show as JS
+  Parameters: {"file"=>"/Users/maran/logo2.png", "id"=>"1"}
+Rendered files/show.js.erb (0.6ms)
+Completed 200 OK in 9ms (Views: 8.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-02 18:22:37 +0200
+  Processing by BrowserController#index as HTML
+Rendered browser/index.html.erb within layouts/application (57.5ms)
+Completed 200 OK in 65ms (Views: 63.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/files/1?file=%2FUsers%2Fmaran%2Fknown_hosts" for 127.0.0.1 at 2011-06-02 18:22:38 +0200
+  Processing by FilesController#show as JS
+  Parameters: {"file"=>"/Users/maran/known_hosts", "id"=>"1"}
+ERROR: compiling _app_views_files_show_js_erb___3397326144001519721_2169546340__1670775176635600150 RAISED /Users/maran/Projects/misc/Browser/app/views/files/show.js.erb:1: syntax error, unexpected tLABEL
+...;@output_buffer.append= ( Size: File.stat(params[:file]).siz...
+...                               ^
+Function body:           def _app_views_files_show_js_erb___3397326144001519721_2169546340__1670775176635600150(local_assigns)
+            _old_virtual_path, @_virtual_path = @_virtual_path, "files/show";_old_output_buffer = @output_buffer;;@output_buffer = ActionView::OutputBuffer.new;@output_buffer.safe_concat('$("<div title=\'');@output_buffer.append= ( params[:file] );@output_buffer.safe_concat('\'>');@output_buffer.append= ( Size: File.stat(params[:file]).size );@output_buffer.safe_concat('</div>").dialog({height: 140, modal: true });');@output_buffer.to_s
+          ensure
+            @_virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+Backtrace: /Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_view/template.rb:255:in `module_eval'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_view/template.rb:255:in `compile'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_view/template.rb:134:in `block in render'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/activesupport-3.0.7/lib/active_support/notifications.rb:54:in `instrument'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_view/template.rb:127:in `render'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_view/render/rendering.rb:59:in `block in _render_template'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/activesupport-3.0.7/lib/active_support/notifications.rb:52:in `block in instrument'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/activesupport-3.0.7/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/activesupport-3.0.7/lib/active_support/notifications.rb:52:in `instrument'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_view/render/rendering.rb:56:in `_render_template'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_view/render/rendering.rb:26:in `render'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/abstract_controller/rendering.rb:115:in `_render_template'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/abstract_controller/rendering.rb:109:in `render_to_body'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_controller/metal/renderers.rb:47:in `render_to_body'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_controller/metal/compatibility.rb:55:in `render_to_body'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/abstract_controller/rendering.rb:102:in `render_to_string'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/abstract_controller/rendering.rb:93:in `render'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_controller/metal/rendering.rb:17:in `render'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/activesupport-3.0.7/lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+/Users/maran/.rvm/rubies/ruby-1.9.2-p0/lib/ruby/1.9.1/benchmark.rb:309:in `realtime'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/activesupport-3.0.7/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_controller/metal/instrumentation.rb:78:in `cleanup_view_runtime'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/activerecord-3.0.7/lib/active_record/railties/controller_runtime.rb:15:in `cleanup_view_runtime'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_controller/metal/instrumentation.rb:39:in `render'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_controller/metal/implicit_render.rb:14:in `default_render'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_controller/metal/mime_responds.rb:261:in `block in retrieve_response_from_mimes'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_controller/metal/mime_responds.rb:192:in `call'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_controller/metal/mime_responds.rb:192:in `respond_to'
+/Users/maran/Projects/misc/Browser/app/controllers/files_controller.rb:3:in `show'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/abstract_controller/base.rb:150:in `process_action'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_controller/metal/rendering.rb:11:in `process_action'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/activesupport-3.0.7/lib/active_support/callbacks.rb:436:in `_run__339768707971067391__process_action__1803406032031850250__callbacks'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/activesupport-3.0.7/lib/active_support/callbacks.rb:410:in `_run_process_action_callbacks'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/activesupport-3.0.7/lib/active_support/callbacks.rb:94:in `run_callbacks'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/activesupport-3.0.7/lib/active_support/notifications.rb:52:in `block in instrument'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/activesupport-3.0.7/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/activesupport-3.0.7/lib/active_support/notifications.rb:52:in `instrument'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_controller/metal/rescue.rb:17:in `process_action'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/abstract_controller/base.rb:119:in `process'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/abstract_controller/rendering.rb:41:in `process'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_controller/metal.rb:138:in `dispatch'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_controller/metal.rb:178:in `block in action'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_dispatch/routing/route_set.rb:62:in `call'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_dispatch/routing/route_set.rb:62:in `dispatch'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_dispatch/routing/route_set.rb:27:in `call'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/rack-mount-0.6.14/lib/rack/mount/route_set.rb:148:in `block in call'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/rack-mount-0.6.14/lib/rack/mount/code_generation.rb:93:in `block in recognize'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/rack-mount-0.6.14/lib/rack/mount/code_generation.rb:89:in `optimized_each'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/rack-mount-0.6.14/lib/rack/mount/code_generation.rb:92:in `recognize'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/rack-mount-0.6.14/lib/rack/mount/route_set.rb:139:in `call'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_dispatch/routing/route_set.rb:493:in `call'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_dispatch/middleware/head.rb:14:in `call'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/rack-1.2.3/lib/rack/methodoverride.rb:24:in `call'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_dispatch/middleware/flash.rb:182:in `call'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_dispatch/middleware/session/abstract_store.rb:149:in `call'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_dispatch/middleware/cookies.rb:302:in `call'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/activerecord-3.0.7/lib/active_record/query_cache.rb:32:in `block in call'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/activerecord-3.0.7/lib/active_record/connection_adapters/abstract/query_cache.rb:28:in `cache'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/activerecord-3.0.7/lib/active_record/query_cache.rb:12:in `cache'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/activerecord-3.0.7/lib/active_record/query_cache.rb:31:in `call'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/activerecord-3.0.7/lib/active_record/connection_adapters/abstract/connection_pool.rb:354:in `call'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_dispatch/middleware/callbacks.rb:46:in `block in call'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/activesupport-3.0.7/lib/active_support/callbacks.rb:416:in `_run_call_callbacks'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_dispatch/middleware/callbacks.rb:44:in `call'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/rack-1.2.3/lib/rack/sendfile.rb:107:in `call'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_dispatch/middleware/remote_ip.rb:48:in `call'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_dispatch/middleware/show_exceptions.rb:47:in `call'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/railties-3.0.7/lib/rails/rack/logger.rb:13:in `call'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/rack-1.2.3/lib/rack/runtime.rb:17:in `call'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/activesupport-3.0.7/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/rack-1.2.3/lib/rack/lock.rb:11:in `block in call'
+<internal:prelude>:10:in `synchronize'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/rack-1.2.3/lib/rack/lock.rb:11:in `call'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_dispatch/middleware/static.rb:30:in `call'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/railties-3.0.7/lib/rails/application.rb:168:in `call'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/railties-3.0.7/lib/rails/application.rb:77:in `method_missing'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/railties-3.0.7/lib/rails/rack/log_tailer.rb:14:in `call'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/rack-1.2.3/lib/rack/content_length.rb:13:in `call'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/rack-1.2.3/lib/rack/handler/webrick.rb:52:in `service'
+/Users/maran/.rvm/rubies/ruby-1.9.2-p0/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+/Users/maran/.rvm/rubies/ruby-1.9.2-p0/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+/Users/maran/.rvm/rubies/ruby-1.9.2-p0/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+Rendered files/show.js.erb (0.9ms)
+Completed   in 10ms
+
+ActionView::Template::Error (/Users/maran/Projects/misc/Browser/app/views/files/show.js.erb:1: syntax error, unexpected tLABEL
+...;@output_buffer.append= ( Size: File.stat(params[:file]).siz...
+...                               ^):
+    1: $("<div title='<%= params[:file] %>'><%= Size: File.stat(params[:file]).size %></div>").dialog({height: 140, modal: true });
+  app/controllers/files_controller.rb:3:in `show'
+
+Rendered /Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.8ms)
+Rendered /Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.9ms)
+Rendered /Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (39.6ms)
+
+
+Started GET "/files/1?file=%2FUsers%2Fmaran%2Fknown_host" for 127.0.0.1 at 2011-06-02 18:22:39 +0200
+  Processing by FilesController#show as JS
+  Parameters: {"file"=>"/Users/maran/known_host", "id"=>"1"}
+ERROR: compiling _app_views_files_show_js_erb___3397326144001519721_2177562740__1670775176635600150 RAISED /Users/maran/Projects/misc/Browser/app/views/files/show.js.erb:1: syntax error, unexpected tLABEL
+...;@output_buffer.append= ( Size: File.stat(params[:file]).siz...
+...                               ^
+Function body:           def _app_views_files_show_js_erb___3397326144001519721_2177562740__1670775176635600150(local_assigns)
+            _old_virtual_path, @_virtual_path = @_virtual_path, "files/show";_old_output_buffer = @output_buffer;;@output_buffer = ActionView::OutputBuffer.new;@output_buffer.safe_concat('$("<div title=\'');@output_buffer.append= ( params[:file] );@output_buffer.safe_concat('\'>');@output_buffer.append= ( Size: File.stat(params[:file]).size );@output_buffer.safe_concat('</div>").dialog({height: 140, modal: true });');@output_buffer.to_s
+          ensure
+            @_virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+Backtrace: /Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_view/template.rb:255:in `module_eval'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_view/template.rb:255:in `compile'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_view/template.rb:134:in `block in render'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/activesupport-3.0.7/lib/active_support/notifications.rb:54:in `instrument'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_view/template.rb:127:in `render'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_view/render/rendering.rb:59:in `block in _render_template'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/activesupport-3.0.7/lib/active_support/notifications.rb:52:in `block in instrument'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/activesupport-3.0.7/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/activesupport-3.0.7/lib/active_support/notifications.rb:52:in `instrument'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_view/render/rendering.rb:56:in `_render_template'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_view/render/rendering.rb:26:in `render'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/abstract_controller/rendering.rb:115:in `_render_template'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/abstract_controller/rendering.rb:109:in `render_to_body'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_controller/metal/renderers.rb:47:in `render_to_body'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_controller/metal/compatibility.rb:55:in `render_to_body'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/abstract_controller/rendering.rb:102:in `render_to_string'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/abstract_controller/rendering.rb:93:in `render'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_controller/metal/rendering.rb:17:in `render'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/activesupport-3.0.7/lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+/Users/maran/.rvm/rubies/ruby-1.9.2-p0/lib/ruby/1.9.1/benchmark.rb:309:in `realtime'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/activesupport-3.0.7/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_controller/metal/instrumentation.rb:78:in `cleanup_view_runtime'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/activerecord-3.0.7/lib/active_record/railties/controller_runtime.rb:15:in `cleanup_view_runtime'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_controller/metal/instrumentation.rb:39:in `render'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_controller/metal/implicit_render.rb:14:in `default_render'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_controller/metal/mime_responds.rb:261:in `block in retrieve_response_from_mimes'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_controller/metal/mime_responds.rb:192:in `call'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_controller/metal/mime_responds.rb:192:in `respond_to'
+/Users/maran/Projects/misc/Browser/app/controllers/files_controller.rb:3:in `show'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/abstract_controller/base.rb:150:in `process_action'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_controller/metal/rendering.rb:11:in `process_action'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/activesupport-3.0.7/lib/active_support/callbacks.rb:436:in `_run__339768707971067391__process_action__1803406032031850250__callbacks'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/activesupport-3.0.7/lib/active_support/callbacks.rb:410:in `_run_process_action_callbacks'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/activesupport-3.0.7/lib/active_support/callbacks.rb:94:in `run_callbacks'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/activesupport-3.0.7/lib/active_support/notifications.rb:52:in `block in instrument'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/activesupport-3.0.7/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/activesupport-3.0.7/lib/active_support/notifications.rb:52:in `instrument'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_controller/metal/rescue.rb:17:in `process_action'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/abstract_controller/base.rb:119:in `process'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/abstract_controller/rendering.rb:41:in `process'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_controller/metal.rb:138:in `dispatch'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_controller/metal.rb:178:in `block in action'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_dispatch/routing/route_set.rb:62:in `call'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_dispatch/routing/route_set.rb:62:in `dispatch'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_dispatch/routing/route_set.rb:27:in `call'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/rack-mount-0.6.14/lib/rack/mount/route_set.rb:148:in `block in call'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/rack-mount-0.6.14/lib/rack/mount/code_generation.rb:93:in `block in recognize'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/rack-mount-0.6.14/lib/rack/mount/code_generation.rb:89:in `optimized_each'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/rack-mount-0.6.14/lib/rack/mount/code_generation.rb:92:in `recognize'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/rack-mount-0.6.14/lib/rack/mount/route_set.rb:139:in `call'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_dispatch/routing/route_set.rb:493:in `call'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_dispatch/middleware/head.rb:14:in `call'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/rack-1.2.3/lib/rack/methodoverride.rb:24:in `call'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_dispatch/middleware/flash.rb:182:in `call'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_dispatch/middleware/session/abstract_store.rb:149:in `call'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_dispatch/middleware/cookies.rb:302:in `call'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/activerecord-3.0.7/lib/active_record/query_cache.rb:32:in `block in call'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/activerecord-3.0.7/lib/active_record/connection_adapters/abstract/query_cache.rb:28:in `cache'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/activerecord-3.0.7/lib/active_record/query_cache.rb:12:in `cache'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/activerecord-3.0.7/lib/active_record/query_cache.rb:31:in `call'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/activerecord-3.0.7/lib/active_record/connection_adapters/abstract/connection_pool.rb:354:in `call'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_dispatch/middleware/callbacks.rb:46:in `block in call'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/activesupport-3.0.7/lib/active_support/callbacks.rb:416:in `_run_call_callbacks'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_dispatch/middleware/callbacks.rb:44:in `call'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/rack-1.2.3/lib/rack/sendfile.rb:107:in `call'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_dispatch/middleware/remote_ip.rb:48:in `call'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_dispatch/middleware/show_exceptions.rb:47:in `call'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/railties-3.0.7/lib/rails/rack/logger.rb:13:in `call'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/rack-1.2.3/lib/rack/runtime.rb:17:in `call'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/activesupport-3.0.7/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/rack-1.2.3/lib/rack/lock.rb:11:in `block in call'
+<internal:prelude>:10:in `synchronize'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/rack-1.2.3/lib/rack/lock.rb:11:in `call'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_dispatch/middleware/static.rb:30:in `call'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/railties-3.0.7/lib/rails/application.rb:168:in `call'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/railties-3.0.7/lib/rails/application.rb:77:in `method_missing'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/railties-3.0.7/lib/rails/rack/log_tailer.rb:14:in `call'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/rack-1.2.3/lib/rack/content_length.rb:13:in `call'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/rack-1.2.3/lib/rack/handler/webrick.rb:52:in `service'
+/Users/maran/.rvm/rubies/ruby-1.9.2-p0/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+/Users/maran/.rvm/rubies/ruby-1.9.2-p0/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+/Users/maran/.rvm/rubies/ruby-1.9.2-p0/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+Rendered files/show.js.erb (0.9ms)
+Completed   in 10ms
+
+ActionView::Template::Error (/Users/maran/Projects/misc/Browser/app/views/files/show.js.erb:1: syntax error, unexpected tLABEL
+...;@output_buffer.append= ( Size: File.stat(params[:file]).siz...
+...                               ^):
+    1: $("<div title='<%= params[:file] %>'><%= Size: File.stat(params[:file]).size %></div>").dialog({height: 140, modal: true });
+  app/controllers/files_controller.rb:3:in `show'
+
+Rendered /Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.2ms)
+Rendered /Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (10.3ms)
+
+
+Started GET "/files/1?file=%2FUsers%2Fmaran%2Fknown_host" for 127.0.0.1 at 2011-06-02 18:22:40 +0200
+  Processing by FilesController#show as JS
+  Parameters: {"file"=>"/Users/maran/known_host", "id"=>"1"}
+ERROR: compiling _app_views_files_show_js_erb___3397326144001519721_2168771860__1670775176635600150 RAISED /Users/maran/Projects/misc/Browser/app/views/files/show.js.erb:1: syntax error, unexpected tLABEL
+...;@output_buffer.append= ( Size: File.stat(params[:file]).siz...
+...                               ^
+Function body:           def _app_views_files_show_js_erb___3397326144001519721_2168771860__1670775176635600150(local_assigns)
+            _old_virtual_path, @_virtual_path = @_virtual_path, "files/show";_old_output_buffer = @output_buffer;;@output_buffer = ActionView::OutputBuffer.new;@output_buffer.safe_concat('$("<div title=\'');@output_buffer.append= ( params[:file] );@output_buffer.safe_concat('\'>');@output_buffer.append= ( Size: File.stat(params[:file]).size );@output_buffer.safe_concat('</div>").dialog({height: 140, modal: true });');@output_buffer.to_s
+          ensure
+            @_virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+Backtrace: /Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_view/template.rb:255:in `module_eval'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_view/template.rb:255:in `compile'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_view/template.rb:134:in `block in render'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/activesupport-3.0.7/lib/active_support/notifications.rb:54:in `instrument'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_view/template.rb:127:in `render'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_view/render/rendering.rb:59:in `block in _render_template'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/activesupport-3.0.7/lib/active_support/notifications.rb:52:in `block in instrument'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/activesupport-3.0.7/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/activesupport-3.0.7/lib/active_support/notifications.rb:52:in `instrument'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_view/render/rendering.rb:56:in `_render_template'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_view/render/rendering.rb:26:in `render'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/abstract_controller/rendering.rb:115:in `_render_template'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/abstract_controller/rendering.rb:109:in `render_to_body'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_controller/metal/renderers.rb:47:in `render_to_body'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_controller/metal/compatibility.rb:55:in `render_to_body'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/abstract_controller/rendering.rb:102:in `render_to_string'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/abstract_controller/rendering.rb:93:in `render'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_controller/metal/rendering.rb:17:in `render'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/activesupport-3.0.7/lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+/Users/maran/.rvm/rubies/ruby-1.9.2-p0/lib/ruby/1.9.1/benchmark.rb:309:in `realtime'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/activesupport-3.0.7/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_controller/metal/instrumentation.rb:78:in `cleanup_view_runtime'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/activerecord-3.0.7/lib/active_record/railties/controller_runtime.rb:15:in `cleanup_view_runtime'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_controller/metal/instrumentation.rb:39:in `render'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_controller/metal/implicit_render.rb:14:in `default_render'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_controller/metal/mime_responds.rb:261:in `block in retrieve_response_from_mimes'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_controller/metal/mime_responds.rb:192:in `call'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_controller/metal/mime_responds.rb:192:in `respond_to'
+/Users/maran/Projects/misc/Browser/app/controllers/files_controller.rb:3:in `show'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/abstract_controller/base.rb:150:in `process_action'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_controller/metal/rendering.rb:11:in `process_action'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/activesupport-3.0.7/lib/active_support/callbacks.rb:436:in `_run__339768707971067391__process_action__1803406032031850250__callbacks'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/activesupport-3.0.7/lib/active_support/callbacks.rb:410:in `_run_process_action_callbacks'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/activesupport-3.0.7/lib/active_support/callbacks.rb:94:in `run_callbacks'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/activesupport-3.0.7/lib/active_support/notifications.rb:52:in `block in instrument'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/activesupport-3.0.7/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/activesupport-3.0.7/lib/active_support/notifications.rb:52:in `instrument'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_controller/metal/rescue.rb:17:in `process_action'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/abstract_controller/base.rb:119:in `process'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/abstract_controller/rendering.rb:41:in `process'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_controller/metal.rb:138:in `dispatch'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_controller/metal.rb:178:in `block in action'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_dispatch/routing/route_set.rb:62:in `call'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_dispatch/routing/route_set.rb:62:in `dispatch'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_dispatch/routing/route_set.rb:27:in `call'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/rack-mount-0.6.14/lib/rack/mount/route_set.rb:148:in `block in call'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/rack-mount-0.6.14/lib/rack/mount/code_generation.rb:93:in `block in recognize'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/rack-mount-0.6.14/lib/rack/mount/code_generation.rb:89:in `optimized_each'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/rack-mount-0.6.14/lib/rack/mount/code_generation.rb:92:in `recognize'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/rack-mount-0.6.14/lib/rack/mount/route_set.rb:139:in `call'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_dispatch/routing/route_set.rb:493:in `call'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_dispatch/middleware/head.rb:14:in `call'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/rack-1.2.3/lib/rack/methodoverride.rb:24:in `call'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_dispatch/middleware/flash.rb:182:in `call'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_dispatch/middleware/session/abstract_store.rb:149:in `call'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_dispatch/middleware/cookies.rb:302:in `call'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/activerecord-3.0.7/lib/active_record/query_cache.rb:32:in `block in call'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/activerecord-3.0.7/lib/active_record/connection_adapters/abstract/query_cache.rb:28:in `cache'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/activerecord-3.0.7/lib/active_record/query_cache.rb:12:in `cache'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/activerecord-3.0.7/lib/active_record/query_cache.rb:31:in `call'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/activerecord-3.0.7/lib/active_record/connection_adapters/abstract/connection_pool.rb:354:in `call'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_dispatch/middleware/callbacks.rb:46:in `block in call'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/activesupport-3.0.7/lib/active_support/callbacks.rb:416:in `_run_call_callbacks'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_dispatch/middleware/callbacks.rb:44:in `call'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/rack-1.2.3/lib/rack/sendfile.rb:107:in `call'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_dispatch/middleware/remote_ip.rb:48:in `call'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_dispatch/middleware/show_exceptions.rb:47:in `call'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/railties-3.0.7/lib/rails/rack/logger.rb:13:in `call'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/rack-1.2.3/lib/rack/runtime.rb:17:in `call'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/activesupport-3.0.7/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/rack-1.2.3/lib/rack/lock.rb:11:in `block in call'
+<internal:prelude>:10:in `synchronize'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/rack-1.2.3/lib/rack/lock.rb:11:in `call'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_dispatch/middleware/static.rb:30:in `call'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/railties-3.0.7/lib/rails/application.rb:168:in `call'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/railties-3.0.7/lib/rails/application.rb:77:in `method_missing'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/railties-3.0.7/lib/rails/rack/log_tailer.rb:14:in `call'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/rack-1.2.3/lib/rack/content_length.rb:13:in `call'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/rack-1.2.3/lib/rack/handler/webrick.rb:52:in `service'
+/Users/maran/.rvm/rubies/ruby-1.9.2-p0/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+/Users/maran/.rvm/rubies/ruby-1.9.2-p0/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+/Users/maran/.rvm/rubies/ruby-1.9.2-p0/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+Rendered files/show.js.erb (0.9ms)
+Completed   in 9ms
+
+ActionView::Template::Error (/Users/maran/Projects/misc/Browser/app/views/files/show.js.erb:1: syntax error, unexpected tLABEL
+...;@output_buffer.append= ( Size: File.stat(params[:file]).siz...
+...                               ^):
+    1: $("<div title='<%= params[:file] %>'><%= Size: File.stat(params[:file]).size %></div>").dialog({height: 140, modal: true });
+  app/controllers/files_controller.rb:3:in `show'
+
+Rendered /Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+Rendered /Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.7ms)
+Rendered /Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (10.9ms)
+
+
+Started GET "/files/1?file=%2FUsers%2Fmaran%2Frtorrent" for 127.0.0.1 at 2011-06-02 18:22:40 +0200
+  Processing by FilesController#show as JS
+  Parameters: {"file"=>"/Users/maran/rtorrent", "id"=>"1"}
+ERROR: compiling _app_views_files_show_js_erb___3397326144001519721_2177726020__1670775176635600150 RAISED /Users/maran/Projects/misc/Browser/app/views/files/show.js.erb:1: syntax error, unexpected tLABEL
+...;@output_buffer.append= ( Size: File.stat(params[:file]).siz...
+...                               ^
+Function body:           def _app_views_files_show_js_erb___3397326144001519721_2177726020__1670775176635600150(local_assigns)
+            _old_virtual_path, @_virtual_path = @_virtual_path, "files/show";_old_output_buffer = @output_buffer;;@output_buffer = ActionView::OutputBuffer.new;@output_buffer.safe_concat('$("<div title=\'');@output_buffer.append= ( params[:file] );@output_buffer.safe_concat('\'>');@output_buffer.append= ( Size: File.stat(params[:file]).size );@output_buffer.safe_concat('</div>").dialog({height: 140, modal: true });');@output_buffer.to_s
+          ensure
+            @_virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+Backtrace: /Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_view/template.rb:255:in `module_eval'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_view/template.rb:255:in `compile'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_view/template.rb:134:in `block in render'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/activesupport-3.0.7/lib/active_support/notifications.rb:54:in `instrument'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_view/template.rb:127:in `render'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_view/render/rendering.rb:59:in `block in _render_template'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/activesupport-3.0.7/lib/active_support/notifications.rb:52:in `block in instrument'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/activesupport-3.0.7/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/activesupport-3.0.7/lib/active_support/notifications.rb:52:in `instrument'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_view/render/rendering.rb:56:in `_render_template'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_view/render/rendering.rb:26:in `render'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/abstract_controller/rendering.rb:115:in `_render_template'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/abstract_controller/rendering.rb:109:in `render_to_body'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_controller/metal/renderers.rb:47:in `render_to_body'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_controller/metal/compatibility.rb:55:in `render_to_body'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/abstract_controller/rendering.rb:102:in `render_to_string'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/abstract_controller/rendering.rb:93:in `render'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_controller/metal/rendering.rb:17:in `render'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/activesupport-3.0.7/lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+/Users/maran/.rvm/rubies/ruby-1.9.2-p0/lib/ruby/1.9.1/benchmark.rb:309:in `realtime'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/activesupport-3.0.7/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_controller/metal/instrumentation.rb:78:in `cleanup_view_runtime'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/activerecord-3.0.7/lib/active_record/railties/controller_runtime.rb:15:in `cleanup_view_runtime'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_controller/metal/instrumentation.rb:39:in `render'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_controller/metal/implicit_render.rb:14:in `default_render'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_controller/metal/mime_responds.rb:261:in `block in retrieve_response_from_mimes'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_controller/metal/mime_responds.rb:192:in `call'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_controller/metal/mime_responds.rb:192:in `respond_to'
+/Users/maran/Projects/misc/Browser/app/controllers/files_controller.rb:3:in `show'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/abstract_controller/base.rb:150:in `process_action'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_controller/metal/rendering.rb:11:in `process_action'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/activesupport-3.0.7/lib/active_support/callbacks.rb:436:in `_run__339768707971067391__process_action__1803406032031850250__callbacks'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/activesupport-3.0.7/lib/active_support/callbacks.rb:410:in `_run_process_action_callbacks'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/activesupport-3.0.7/lib/active_support/callbacks.rb:94:in `run_callbacks'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/activesupport-3.0.7/lib/active_support/notifications.rb:52:in `block in instrument'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/activesupport-3.0.7/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/activesupport-3.0.7/lib/active_support/notifications.rb:52:in `instrument'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_controller/metal/rescue.rb:17:in `process_action'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/abstract_controller/base.rb:119:in `process'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/abstract_controller/rendering.rb:41:in `process'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_controller/metal.rb:138:in `dispatch'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_controller/metal.rb:178:in `block in action'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_dispatch/routing/route_set.rb:62:in `call'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_dispatch/routing/route_set.rb:62:in `dispatch'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_dispatch/routing/route_set.rb:27:in `call'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/rack-mount-0.6.14/lib/rack/mount/route_set.rb:148:in `block in call'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/rack-mount-0.6.14/lib/rack/mount/code_generation.rb:93:in `block in recognize'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/rack-mount-0.6.14/lib/rack/mount/code_generation.rb:89:in `optimized_each'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/rack-mount-0.6.14/lib/rack/mount/code_generation.rb:92:in `recognize'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/rack-mount-0.6.14/lib/rack/mount/route_set.rb:139:in `call'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_dispatch/routing/route_set.rb:493:in `call'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_dispatch/middleware/head.rb:14:in `call'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/rack-1.2.3/lib/rack/methodoverride.rb:24:in `call'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_dispatch/middleware/flash.rb:182:in `call'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_dispatch/middleware/session/abstract_store.rb:149:in `call'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_dispatch/middleware/cookies.rb:302:in `call'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/activerecord-3.0.7/lib/active_record/query_cache.rb:32:in `block in call'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/activerecord-3.0.7/lib/active_record/connection_adapters/abstract/query_cache.rb:28:in `cache'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/activerecord-3.0.7/lib/active_record/query_cache.rb:12:in `cache'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/activerecord-3.0.7/lib/active_record/query_cache.rb:31:in `call'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/activerecord-3.0.7/lib/active_record/connection_adapters/abstract/connection_pool.rb:354:in `call'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_dispatch/middleware/callbacks.rb:46:in `block in call'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/activesupport-3.0.7/lib/active_support/callbacks.rb:416:in `_run_call_callbacks'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_dispatch/middleware/callbacks.rb:44:in `call'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/rack-1.2.3/lib/rack/sendfile.rb:107:in `call'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_dispatch/middleware/remote_ip.rb:48:in `call'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_dispatch/middleware/show_exceptions.rb:47:in `call'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/railties-3.0.7/lib/rails/rack/logger.rb:13:in `call'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/rack-1.2.3/lib/rack/runtime.rb:17:in `call'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/activesupport-3.0.7/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/rack-1.2.3/lib/rack/lock.rb:11:in `block in call'
+<internal:prelude>:10:in `synchronize'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/rack-1.2.3/lib/rack/lock.rb:11:in `call'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_dispatch/middleware/static.rb:30:in `call'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/railties-3.0.7/lib/rails/application.rb:168:in `call'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/railties-3.0.7/lib/rails/application.rb:77:in `method_missing'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/railties-3.0.7/lib/rails/rack/log_tailer.rb:14:in `call'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/rack-1.2.3/lib/rack/content_length.rb:13:in `call'
+/Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/rack-1.2.3/lib/rack/handler/webrick.rb:52:in `service'
+/Users/maran/.rvm/rubies/ruby-1.9.2-p0/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+/Users/maran/.rvm/rubies/ruby-1.9.2-p0/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+/Users/maran/.rvm/rubies/ruby-1.9.2-p0/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+Rendered files/show.js.erb (0.9ms)
+Completed   in 47ms
+
+ActionView::Template::Error (/Users/maran/Projects/misc/Browser/app/views/files/show.js.erb:1: syntax error, unexpected tLABEL
+...;@output_buffer.append= ( Size: File.stat(params[:file]).siz...
+...                               ^):
+    1: $("<div title='<%= params[:file] %>'><%= Size: File.stat(params[:file]).size %></div>").dialog({height: 140, modal: true });
+  app/controllers/files_controller.rb:3:in `show'
+
+Rendered /Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.4ms)
+Rendered /Users/maran/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (10.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-02 18:22:47 +0200
+  Processing by BrowserController#index as HTML
+Rendered browser/index.html.erb within layouts/application (37.5ms)
+Completed 200 OK in 44ms (Views: 42.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/files/1?file=%2FUsers%2Fmaran%2Flogo2.png" for 127.0.0.1 at 2011-06-02 18:22:47 +0200
+  Processing by FilesController#show as JS
+  Parameters: {"file"=>"/Users/maran/logo2.png", "id"=>"1"}
+Rendered files/show.js.erb (0.6ms)
+Completed 200 OK in 9ms (Views: 8.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-06-02 18:22:53 +0200
+  Processing by BrowserController#index as HTML
+Rendered browser/index.html.erb within layouts/application (83.8ms)
+Completed 200 OK in 92ms (Views: 89.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/files/1?file=%2FUsers%2Fmaran%2Fpub" for 127.0.0.1 at 2011-06-02 18:22:55 +0200
+  Processing by FilesController#show as JS
+  Parameters: {"file"=>"/Users/maran/pub", "id"=>"1"}
+Rendered files/show.js.erb (0.6ms)
+Completed 200 OK in 9ms (Views: 8.7ms | ActiveRecord: 0.0ms)

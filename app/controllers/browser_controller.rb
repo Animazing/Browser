@@ -8,8 +8,8 @@ class BrowserController < ApplicationController
     @link=[]
    
     
-    main_path=Dir.home("max")
-    @active_path = params[:dir] || Dir.home("max") 
+    main_path=Dir.home("maran")
+    @active_path = params[:dir] || Dir.home("maran") 
     @wanted_path=@active_path+"/*"
       
     @link_array=@wanted_path.chop.split("/")
